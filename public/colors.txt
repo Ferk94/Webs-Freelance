@@ -1,0 +1,9 @@
+Fondo: #F9FAFB (gris muy claro)
+
+Primario (botones, enlaces): #2563EB (azul intenso, pero amable)
+
+Texto principal: #111827 (gris casi negro)
+
+Secundario (subtítulos, detalles): #6B7280 (gris medio)
+
+Acento: #10B981 (verde esmeralda para íconos de "✅" o CTA secundaria)

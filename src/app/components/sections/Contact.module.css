@@ -1,0 +1,73 @@
+.contactSection {
+  padding: 4rem 1rem;
+  background-color: #F9FAFB;
+  /* border-bottom: 2px solid #10B981; */
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #6B7280;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input, .textarea {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #D1D5DB;
+  border-radius: 8px;
+  outline-color: #2563EB;
+  resize: none;
+  font-family: inherit;
+  color: #111827;
+}
+
+.textarea {
+  min-height: 120px;
+}
+
+.button {
+  background-color: #2563EB;
+  color: white;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1D4ED8;
+}
+
+.successMessage {
+  color: #10B981;
+  margin-top: 1rem;
+}
+
+.errorMessage {
+  color: #EF4444;
+  margin-top: 1rem;
+}

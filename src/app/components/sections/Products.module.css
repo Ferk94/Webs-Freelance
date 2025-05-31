@@ -1,0 +1,92 @@
+.plans {
+  padding: 4rem 1rem;
+  background-color: #fff;
+  border-bottom: 2px solid #10B981;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #6B7280;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+  background-color: #F9FAFB;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 2px solid #E5E7EB;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #2563EB;
+}
+
+.highlight {
+  border-color: #2563EB;
+  background-color: #EFF6FF;
+}
+
+.planTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.25rem;
+  color: #10B981;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.feature {
+  color: #6B7280;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.button {
+  background-color: #2563EB;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1D4ED8;
+}

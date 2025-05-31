@@ -1,0 +1,87 @@
+.projectsSection {
+  padding: 4rem 1rem;
+  background-color: #F9FAFB;
+  border-bottom: 2px solid #10B981;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2rem;
+  color: #111827;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.projectCard {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.1);
+  overflow: hidden;
+}
+
+.projectImage {
+  width: 40%;
+  object-fit: cover;
+  border-radius: 12px 0 0 12px;
+}
+
+.projectContent {
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.projectTitle {
+  font-size: 1.75rem;
+  color: #2563EB;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  color: #6B7280;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.projectPlan {
+  font-size: 1rem;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+.projectButton {
+  align-self: flex-start;
+  background-color: #2563EB;
+  color: white;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.projectButton:hover {
+  background-color: #1D4ED8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projectCard {
+    flex-direction: column;
+  }
+  .projectImage {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px 12px 0 0;
+  }
+  .projectContent {
+    width: 100%;
+  }
+}
