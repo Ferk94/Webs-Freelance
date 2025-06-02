@@ -33,7 +33,6 @@ export default function Contact() {
         templateId: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         userId: process.env.NEXT_PUBLIC_EMAILJS_USER_ID,
     }
-    console.log(envData, 'tenemos la envData?')
 
     emailjs.send(
         envData.serviceId || '',
